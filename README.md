@@ -1,7 +1,8 @@
 # Vox.
 Don't let anyone censor you. A blockchain-based message board to broadcast your voice across the world.
 
-![]https://youtu.be/7t-CGJFgvV0
+Here is a demo for your reference: 
+https://youtu.be/7t-CGJFgvV0
 
 ## Description
 Vox is a blockchain-based message board. Enter your Vox message into the text box and set a passcode for it. Publish the message using your Metamask account. A unique ID will be displayed. Now, send the passcode and unique ID to your listeners.
