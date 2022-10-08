@@ -12,8 +12,7 @@ export default function Megaphone() {
       <pointLight position={[-10, -10, -10]} />
       <Model/>
       <OrbitControls />
-      {/* <Box position={[-1.2, 0, 0]} />
-      <Box position={[1.2, 0, 0]} /> */}
+
     </Canvas>
   )
 }

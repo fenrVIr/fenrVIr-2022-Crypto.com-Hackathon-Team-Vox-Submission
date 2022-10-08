@@ -56,12 +56,6 @@ function GetStarted() {
   const publishVox = async () => {
     const voxContract = getVoxContract()
     console.log(voxContract)
-    // await ethereum.request({
-    //     method: "eth_sendTransaction",
-    //     params: [{
-    //         gas: "0x5208",  // 21 000 gwei
-    //     }]
-    // })
 
     const txHash = await voxContract.addVox(vox, passcode)
 
@@ -145,7 +139,7 @@ function GetStarted() {
           </button>
         )}
 
-        {/* {setIsSucessful && <p>{hash.hash}</p> } */}
+     
       </div>
 
       <div>
@@ -184,7 +178,6 @@ function GetStarted() {
   )
 }
 
-//0xe49130a16ca8f2a57376d20dd8cda893c022d1fba6712ba55ca3d2bb992d451c
-// onClick={() => {navigator.clipboard.writeText(this.state.textToCopy)}}
+
 
 export default GetStarted
