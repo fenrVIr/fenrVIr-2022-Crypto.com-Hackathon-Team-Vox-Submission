@@ -23,6 +23,7 @@ For the client side, clone the repo and run:
 
 ```
 npm install
+npm install -D tailwindcss postcss autoprefixer
 npm run start
 ```
 
