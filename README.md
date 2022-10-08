@@ -10,7 +10,7 @@ To hear someone's Vox message, enter the unique ID and passcode they have set in
 
 ## Important Information
 
-The entire project runs on the Goerli testnet. That's also where the smart contract is deployed via hardhat. I have provided the address of the deployed contract in the client side files, so you don't have to worry about deploying it from scratch when testing.
+The entire project runs on the Goerli testnet. That's also where the smart contract is deployed via hardhat. I have provided the address of the deployed contract in the client side files, so you don't have to worry about deploying it from scratch when testing. You can find the Vox.sol file that contains all the code for the smart contract used in the project. The files that were compiled by hardhat were not included as they aren't necessary for testing purposes (the contract's abi is provided in src/utils).
 
 
 ## Installation and testing
